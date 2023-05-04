@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
+  // Add this line to enable the addition of Web Components.
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }
